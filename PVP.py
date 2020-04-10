@@ -4,7 +4,7 @@ print("Change Proxy Every Half a Second!")
 for x in range(10):
         try:
                 s=socket.socket(2,socket.SOCK_STREAM)
-                s.connect(('3.137.63.131',17580))
+                s.connect(('3.137.63.131',12333))
                 break
         except:
                 time.sleep(5)
